@@ -1,0 +1,39 @@
+#icon {
+  width: 55px;
+  height: 50px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#header {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+#title {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 40px;
+}
+
+#todoFrom {
+  border: black 1px solid;
+  width: fit-content;
+}
+
+#todoFrom input {
+  width: 200px;
+  height: 25px;
+  font-size: 20px;
+}
+
+#todoFrom button {
+  width: 70px;
+  height: 30px;
+  font-size: 20px;
+  background-color: rgb(231, 83, 83);
+}
