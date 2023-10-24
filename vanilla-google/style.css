@@ -1,0 +1,267 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    font-size: 13px;
+    padding:5px;
+}
+
+#about {
+    margin-left: 15px;
+    margin-right: 5px;
+}
+
+#store {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#google-logo {
+    width: 272px;
+    height: 92px;
+    object-fit: cover;
+}
+
+.head {
+    display : flex;
+    justify-content : space-between;
+    flex-direction: row;
+    align-items: center;
+    height: 60px;
+    padding: 6px;
+    box-sizing: border-box;
+}
+
+#image {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#space-hover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 24px;
+    height: 24px;
+    padding : 12px;
+}
+
+#space-hover:hover {
+    background-color: rgba(60, 64, 67, 0.08);
+    border-radius: 100%;
+}
+
+#space {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+    width: 16px;
+    height: 16px;
+}
+
+.google-app {
+    display : flex;
+    justify-content: space-between;
+}
+
+.warp {
+    border-radius: 100%;
+    background-color: rgb(95, 99, 104);
+    width: 4px;
+    height: 4px;
+}
+
+
+.button {
+    box-sizing: content-box;
+
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(26, 115, 232);
+
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 500;
+
+    height: 18px; 
+    width: 50px;
+
+    padding-left: 23px; 
+    padding-right: 23px; 
+    padding-top: 9px;
+    padding-bottom: 9px;
+
+    margin-left: 8px;
+    margin-right: 12px;
+}
+
+.button:hover {
+    background-color: rgb(27, 99, 193);
+    box-shadow: 0 1px 3px 1px rgba(66,64,67,.15),0 1px 2px 0 rgba(60,64,67,.3);
+}
+
+.body {
+    height:237px; 
+    max-height: 290px;
+    min-width: 92px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.head-space {
+    display: flex;
+    align-items: center;
+}
+
+input { 
+    all : unset;
+    width: 443px;
+    height: 27px;
+}
+
+.box {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    max-width: 1400px;
+    height: 120px;
+}
+
+.box-space {
+    padding-top: 6px;
+    max-width: 584px;
+    height: 0px;
+}
+
+.input-box {
+    border-radius: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #dfe1e5;
+    width: 582px;
+    height: 46px;
+}
+
+.input-box:hover {
+    box-shadow: 0 1px 6px rgba(32,33,36,.28);
+}
+
+#search {
+    width: 20px;
+    height: 20px;
+    padding-top: 1px;
+    padding-left: 4px;
+    padding-right: 13px;
+}
+
+#tia {
+    width: 19px;
+    height: 11px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+#google-image-search {
+    width: 30px;
+    height: 30px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.box-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 18px;
+    height: 58px;
+}
+
+.box-button > * {
+    all: unset;
+
+    display: flex;
+    align-items: center;
+    justify-self : center;
+
+    margin-top: 11px;
+    margin-bottom: 11px;
+    margin-left: 4px;
+    margin-right: 4px;
+    padding-left: 16px;
+    padding-right: 16px;
+
+    background-color: #f8f9fa;
+    border-radius: 4px;
+
+    font-size: 14px;
+
+    height: 34px;
+}
+
+.box-button > *:hover {
+    outline : 1px solid #dadce0;
+    box-shadow : rgba(0, 0, 0, 0.1) 0px 2px 1px 0px;
+}
+
+.head-space a:hover {
+    text-decoration : underline;
+}
+
+#body-space {
+    width: 1440px;
+    height: 243px;
+}
+
+.footer-top {
+    display: flex;
+    align-items: center;
+
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+    width: 1380px;
+    height: 19px;
+
+    background-color: rgb(242, 242, 242);
+    border-bottom: 1px solid rgb(218, 220, 224);;
+
+    font-size: 15px;
+    color: rgb(112, 117, 122);
+}
+
+.footer {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-left: 20px;
+    padding-right: 20px;
+
+    width: 1400px;
+    height: 47px;
+
+    background-color: rgb(242, 242, 242);
+}
+
+.footer > div > * {
+    font-size: 13px;
+    padding: 15px;
+    color: rgb(112, 117, 122);
+}
+
+
+.footer > div > *:hover {
+    text-decoration : underline;
+    text-decoration-color: rgb(112, 117, 122);
+}    
+
